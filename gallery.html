@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Ресторан «Фляшка» Тернопіль</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo">
+                <span class="logo-icon">🍾</span>
+                <span class="logo-text" data-i18n="brand_name">Ресторан «Фляшка»</span>
+            </a>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link" data-i18n="nav_services">Меню та страви</a></li>
+                    <li><a href="gallery.html" class="nav-link active" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:0671607773" class="phone-btn">
+                    <span>📞</span> 067 160 7773
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="gallery_page_title">Фотогалерея</h1>
+                <p data-i18n="gallery_page_subtitle">Атмосфера, інтер'єр та страви ресторану «Фляшка»</p>
+            </div>
+        </section>
+
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="card-stub">
+                            <div class="stub-icon">📸</div>
+                            <p data-i18n="photo_stub">Фото скоро з'являться</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="card-stub">
+                            <div class="stub-icon">🍷</div>
+                            <p data-i18n="photo_stub">Фото скоро з'являться</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="card-stub">
+                            <div class="stub-icon">🏰</div>
+                            <p data-i18n="photo_stub">Фото скоро з'являться</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="card-stub">
+                            <div class="stub-icon">🍲</div>
+                            <p data-i18n="photo_stub">Фото скоро з'являться</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-info text-center">
+                    <p data-i18n="gallery_instagram_text">Більше фото та відео нашого закладу дивіться на нашій сторінці в Instagram:</p>
+                    <a href="https://www.instagram.com/flyashka_ternopil/" target="_blank" rel="noopener" class="btn btn-outline">Instagram @flyashka_ternopil</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="brand-logo">
+                    <span class="logo-icon">🍾</span>
+                    <span class="logo-text" data-i18n="brand_name">Ресторан «Фляшка»</span>
+                </a>
+                <p class="footer-desc" data-i18n="footer_desc">Унікальний заклад старовинної кухні в самому центрі Тернополя.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та страви</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p data-i18n="footer_address">бульвар Тараса Шевченка, 1, Тернопіль, 46001</p>
+                <p>Тел: <a href="tel:0671607773">067 160 7773</a></p>
+                <p data-i18n="footer_hours">Пн-Нд: 11:00 - 22:00</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/flyashka_ternopil/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Ресторан «Фляшка», Тернопіль. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
